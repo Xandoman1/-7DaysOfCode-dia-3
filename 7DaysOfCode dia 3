@@ -1,0 +1,25 @@
+
+
+let PerguntaPrincipal = prompt("Você deseja ir para o (1)Back-End ou (2)Front-End?");
+
+
+
+{if (PerguntaPrincipal==1)
+  PerguntaBack = prompt("Você deseja aprender (1)Java ou (2)C#?")
+
+else
+
+  PerguntaFront = prompt("Você deseja aprender (1)React ou (2)Vue?");
+}
+
+PerguntaEspecial = prompt("Você deseja (1)Se especializar na área ou se tornar (2)Fullstack?");
+
+
+
+PerguntaTecnologias = prompt("Tem mais alguma tecnologia que você gostaria de aprender? Digite ok se sim")
+
+while (PerguntaTecnologias === "ok"){ 
+  let qual = prompt("Qual?");
+  alert(`${qual} é ótimo!`);
+  PerguntaTecnologias = prompt("Tem mais alguma tecnologia que você gostaria de aprender? Digite ok se sim");
+}
